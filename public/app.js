@@ -45,25 +45,28 @@ if (number >= 2) {      // if not equal to 2, so the functon continues
 function fibinacci () {
     var inputbox = document.getElementById("txt").value;
     const fibinaccilist = document.getElementById("fibnaccilist");
-    var Fibinacci = (1,1);
+    var Fibinacci = [1,1];
 
     if (inputbox ==1) {
-    Fibinacciv= [1]
+     Fibinacci= [1]
     }
+
 
     if (inputbox ==2) {
         Fibinacci= [2]
 
     }
 
+
     for (var n=2; n <=inputbox; i++) {
     Fibinacci[n]= Fibinacci[n-1] + Fibinacci[n-2]
     }
 
-    fibinaccilist.innerHTML = " " + inputbox + " ";
+
+    fibinaccilist.innerHTML = "Hej " + inputbox + "Hej ";
     inputbox -= 1;
 
-    fibinaccilist.innerHTML <= Fibinacci[inputbox];
+    fibinaccilist.innerHTML = Fibinacci[inputbox];
 
     
 }
