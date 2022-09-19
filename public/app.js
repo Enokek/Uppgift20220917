@@ -2,10 +2,14 @@ function primenumber () {
 var inputbox = document.getElementById("txt").value;
 const ArrList = new Array (2, 3, 5, 7 , 11)
 
-for (var i = 0; i < inputbox; i++) {
-    console.log(ArrList[i]);
-};
 
+
+var numberList = document.getElementById("numberlist")
+numberList.innerHTML = "Primtalen " + inputbox + " ";
+
+for (var i = 0; i < inputbox; i++) {
+    numberList.innerHTML += (ArrList[i]) + ", ";
+};
 
 
 }
@@ -14,8 +18,11 @@ function primenumber2() {
 var inputbox = document.getElementById("txt").value;
 const ArrList = new Array (2, 3, 5, 7 , 11)
 
+var number = document.getElementById("number")
+number.innerHTML = "Ditt tal är " + inputbox + " ";
 inputbox -= 1;
-console.log(ArrList[inputbox]);
+number.innerHTML = "och är det " + ArrList + "talet."
+
 
 }
 
