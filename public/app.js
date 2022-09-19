@@ -1,20 +1,26 @@
 function primenumber () {
-var textbox = document.getElementById("txt").value;
+var inputbox = document.getElementById("txt").value;
+const ArrList = new Array (2, 3, 5, 7 , 11)
 
-const ArrayList = new Array (2, 3, 5, 7 , 11)
-
-  
-
-
-
-
-console.log(ArrayList);
+for (var i = 0; i < inputbox; i++) {
+    console.log(ArrList[i]);
+};
 
 
 
 }
 
-//textbox -= 1;for (let i = 0; i <  i++);
+function primenumber2() {
+var inputbox = document.getElementById("txt").value;
+const ArrList = new Array (2, 3, 5, 7 , 11)
+
+inputbox -= 1;
+console.log(ArrList[inputbox]);
+
+}
+
+
+
 
 /*
 if (number === 1) return false
