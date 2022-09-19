@@ -48,29 +48,40 @@ function fibinacci () {
     var Fibinacci = (1,1);
 
     if (inputbox ==1) {
+    Fibinacciv= [1]
+    }
+
+    if (inputbox ==2) {
+        Fibinacci= [2]
+
+    }
+
+    for (var n=2; n <=inputbox; i++) {
+    Fibinacci[n]= Fibinacci[n-1] + Fibinacci[n-2]
+    }
+
+    fibinaccilist.innerHTML = " " + inputbox + " ";
+    inputbox -= 1;
+
+    fibinaccilist.innerHTML <= Fibinacci[inputbox];
+
+    
+}
+
+function fibinacci2 () {
+    var inputbox = document.getElementById("txt").value;
+    const fibinaccilist = document.getElementById("fibnaccilist");
+    var Fibinacci = (1,1);
+
+    if (inputbox ==1) {
     Fibinacci[1]
     Fibinaccilist.innerHTML = "Apa"
     }
 
-    for (var n=1; n <=inputbox)
-
-   
-
-
-
-   
-   
-
-
-
+    for (var n=2; n <=inputbox; i++) {
     fibinacci[n]= fibinacci[n-1] + fibinacci[n-2]
-    
-   
-
-    for (var n = 0; n < 10; i++ ) {
 
     }
-
-
 }
+
 
