@@ -38,8 +38,39 @@ if (number >= 2) {      // if not equal to 2, so the functon continues
  }
  return true;
  */
-function fibinacci () {
 
-    nSum 
+  /*if (inputbox == 1) {
+        Fibinacci = [1];
+    */
+function fibinacci () {
+    var inputbox = document.getElementById("txt").value;
+    const fibinaccilist = document.getElementById("fibnaccilist");
+    var Fibinacci = (1,1);
+
+    if (inputbox ==1) {
+    Fibinacci[1]
+    Fibinaccilist.innerHTML = "Apa"
+    }
+
+    for (var n=1; n <=inputbox)
+
+   
+
+
+
+   
+   
+
+
+
+    fibinacci[n]= fibinacci[n-1] + fibinacci[n-2]
+    
+   
+
+    for (var n = 0; n < 10; i++ ) {
+
+    }
+
 
 }
+
