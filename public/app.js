@@ -21,7 +21,7 @@ const ArrList = new Array (2, 3, 5, 7 , 11)
 var number = document.getElementById("number")
 number.innerHTML = "Ditt tal är " + inputbox + " ";
 inputbox -= 1;
-number.innerHTML = "och är det " + ArrList + "talet."
+number.innerHTML += "och är primtal " + ArrList[inputbox];
 
 
 }
